@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get("/", (req, res) => {
-  res.send("¡Hola desde Ansible y GitHub Actions Dario Maldonado!");
+  res.send("Examen DAW Despliegue inicial");
 });
 
 app.listen(port, () => {
